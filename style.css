@@ -1,0 +1,526 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.contact {
+  background-color: #06001d;
+  padding: 10px;
+  padding-left: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact .contactboxright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #76708a;
+  gap: 20px;
+  padding-left: 350px;
+}
+
+.contact .contactboxright .contactlink {
+  font-size: 13px;
+}
+
+.contact .contactboxright .icon {
+  color: #556bb3;
+}
+
+.contact .contactboxleft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  color: #76708a;
+  font-size: 13px;
+}
+
+.contact .contactboxleft .icon {
+  color: #556bb3;
+}
+
+.header {
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 85px;
+}
+
+.header .mainbox {
+  padding: 30px;
+  padding-left: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .mainbox .logo {
+  width: 124px;
+  height: 36px;
+  padding-bottom: 30px;
+}
+
+.header .mainbox .logo img {
+  max-width: 100%;
+  min-height: 100%;
+}
+
+.header .mainbox .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  padding-left: 90vh;
+}
+
+.sectionone {
+  background: #0f2027;
+  background: -webkit-gradient(linear, left top, right top, from(#2c5364), color-stop(#203a43), to(#0f2027));
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  height: 100vh;
+  background-size: cover;
+}
+
+.sectionone .sectionbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sectionone .sectionbox .boxwithimg {
+  padding-left: 240px;
+  width: 760px;
+  height: 450px;
+}
+
+.sectionone .sectionbox .boxwithimg .img {
+  max-width: 100%;
+  max-width: 100%;
+}
+
+.sectionone .sectionbox .titles {
+  padding-top: 120px;
+  padding-left: 40px;
+}
+
+.sectionone .sectionbox .titles .titletextone {
+  font-size: 40px;
+  color: white;
+}
+
+.sectionone .sectionbox .titles .titletexttwo {
+  font-size: 16px;
+  padding-top: 20px;
+  color: white;
+}
+
+.sectionone .Contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 35px;
+  gap: 30px;
+  padding-left: 40px;
+}
+
+.sectionone .Contact .icon {
+  font-size: 20px;
+  color: #d4d3d3;
+}
+
+.sectiontwo {
+  background-color: #f8f8f8;
+  height: 120vh;
+  background-size: cover;
+}
+
+.sectiontwo .textbetween {
+  padding-top: 60px;
+  text-align: center;
+  color: #adadad;
+}
+
+.sectiontwo .section_two_last_part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 50px;
+  padding-left: 40px;
+  gap: 30px;
+}
+
+.sectiontwo .section_two_last_part .parttwo .partwithtext {
+  padding: 0 20px 0 20px;
+}
+
+.sectiontwo .section_two_last_part .parttwo .partwithtext .title {
+  color: #143e78;
+  font-size: 34px;
+}
+
+.sectiontwo .section_two_last_part .parttwo .partwithtext .lorem {
+  padding-top: 20px;
+  color: #adadad;
+}
+
+.sectiontwo .section_two_last_part .parttwo .partwithtext .lorem .icon {
+  color: lightgreen;
+}
+
+.sectiontwo .section_two_last_part .partwithimg {
+  width: 650px;
+  height: 500px;
+}
+
+.sectiontwo .section_two_last_part .partwithimg img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.sectiontwo .Cardsbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+
+.sectiontwo .Cardsbox .card {
+  padding: 30px;
+  width: 340px;
+  height: 230px;
+  background-color: white;
+}
+
+.sectiontwo .Cardsbox .card .readmore {
+  padding-top: 40px;
+}
+
+.sectiontwo .Cardsbox .card .text {
+  padding-top: 30px;
+  color: #e9e9e9;
+}
+
+.sectiontwo .Cardsbox .card .iconandtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.sectiontwo .Cardsbox .card .iconandtitle .title {
+  padding-top: 10px;
+}
+
+.sectiontwo .Cardsbox .card .iconandtitle .icon {
+  color: #332577;
+  font-size: 40px;
+}
+
+.infobox {
+  background: #0f2027;
+  background: -webkit-gradient(linear, left top, right top, from(#2c5364), color-stop(#203a43), to(#0f2027));
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  height: 160px;
+}
+
+.infobox .info {
+  text-align: center;
+  padding: 60px;
+  color: white;
+  font-size: 30px;
+}
+
+.sectionthree {
+  height: 90vh;
+}
+
+.sectionthree .mainbox1 {
+  padding: 50px 30px;
+}
+
+.sectionthree .mainbox1 .text {
+  color: #878a9d;
+  padding-top: 20px;
+  width: 720px;
+}
+
+.sectionthree .mainbox1 .title {
+  font-size: 30px;
+  color: #143e78;
+}
+
+.sectionthree .mainbox2 {
+  padding: 0 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+}
+
+.sectionthree .mainbox2 .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 40px;
+}
+
+.sectionthree .mainbox2 .box .icon {
+  color: #463186;
+  font-size: 40px;
+}
+
+.sectionthree .mainbox2 .box .textandtitle {
+  padding-left: 25px;
+}
+
+.sectionthree .mainbox2 .box .title {
+  color: #143e78;
+  font-size: 20px;
+}
+
+.sectionthree .mainbox2 .box .text {
+  padding-top: 20px;
+  color: #878a9d;
+}
+
+.infobox2 {
+  background: #0f2027;
+  background: -webkit-gradient(linear, left top, right top, from(#2c5364), color-stop(#203a43), to(#0f2027));
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  height: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.infobox2 button:hover {
+  color: white;
+}
+
+.infobox2 .boxwithbtn {
+  padding-top: 50px;
+  margin-left: 500px;
+}
+
+.infobox2 .boxwithbtn button {
+  font-size: 16px;
+  padding: 12px 35px;
+  background: #0f2027;
+  border-radius: 5px;
+  border: 2px solid white;
+  color: white;
+}
+
+.infobox2 .info2 {
+  padding: 50px 40px;
+  color: white;
+}
+
+.infobox2 .info2 .texttwo {
+  padding-top: 5px;
+  font-size: 17px;
+}
+
+.infobox2 .info2 .textone {
+  font-size: 30px;
+}
+
+.sectionfour {
+  height: 90vh;
+}
+
+.sectionfour .title {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.sectionfour .title .text {
+  color: #143e78;
+  font-size: 28px;
+}
+
+.sectionfour .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 50px 90px;
+  gap: 20px;
+}
+
+.sectionfour .cards .card {
+  width: 320px;
+  height: 420px;
+}
+
+.sectionfour .cards .card .about {
+  text-align: center;
+}
+
+.sectionfour .cards .card .about .Name {
+  color: #143e78;
+}
+
+.sectionfour .cards .card .about .job {
+  color: #878a9d;
+}
+
+.sectionfour .cards .card .Doctorimage {
+  height: 350px;
+  width: 320px;
+}
+
+.sectionfour .cards .card .Doctorimage :hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.sectionfour .cards .card .Doctorimage .img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.sectionfive {
+  height: 90vh;
+}
+
+.sectionfive .checkbox {
+  padding: 30px 140px;
+  color: #878a9d;
+}
+
+.sectionfive .title {
+  text-align: center;
+  padding: 80px 170px;
+}
+
+.sectionfive .title .titletext {
+  color: #143e78;
+  padding-bottom: 20px;
+  font-size: 35px;
+}
+
+.sectionfive .title .text {
+  color: #878a9d;
+}
+
+.sectionfive .inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sectionfive .inputs .box {
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.sectionfive .inputs .box input {
+  border: 1px solid #878a9d;
+  padding: 15px;
+  width: 500px;
+}
+
+.sectionsix {
+  height: 100vh;
+}
+
+.sectionsix .gridmainbox {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  height: 100vh;
+      grid-template-areas: "boxone boxtwo" "boxthree boxfour";
+}
+
+.sectionsix .gridmainbox .boxfour {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: boxfour;
+  width: 700px;
+  height: 420px;
+}
+
+.sectionsix .gridmainbox .boxfour .boxfourimg {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.sectionsix .gridmainbox .boxthree {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: boxthree;
+  background: #0f2027;
+  background: -webkit-gradient(linear, left top, right top, from(#2c5364), color-stop(#203a43), to(#0f2027));
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+}
+
+.sectionsix .gridmainbox .boxtwo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: boxtwo;
+  background: #0f2027;
+  background: -webkit-gradient(linear, left top, right top, from(#2c5364), color-stop(#203a43), to(#0f2027));
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+}
+
+.sectionsix .gridmainbox .boxone {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: boxone;
+  width: 700px;
+  height: 420px;
+}
+
+.sectionsix .gridmainbox .boxone .boxoneimg {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.sectionsix .boxtwo, .sectionsix .boxthree {
+  padding: 70px 50px;
+  color: white;
+  width: 600px;
+  height: 280px;
+}
+
+.sectionsix .boxtwo .end, .sectionsix .boxthree .end {
+  padding-top: 25px;
+}
+
+.sectionsix .boxtwo .text2, .sectionsix .boxthree .text2 {
+  padding-top: 25px;
+}
+
+.sectionsix .boxtwo .text1, .sectionsix .boxthree .text1 {
+  padding-top: 25px;
+}
+/*# sourceMappingURL=style.css.map */
